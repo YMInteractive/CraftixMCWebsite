@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+header {
+    background-color: #250000;
+    padding: 15px 0;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #1abc9c;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
