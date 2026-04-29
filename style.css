@@ -2,6 +2,7 @@ body {
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
     line-height: 1.6;
+    background-color: #693c00;
 }
 
 header {
@@ -29,6 +30,8 @@ header ul li a {
 
 header ul li a:hover {
     color: #1abc9c;
+}
+
 }
 
 h2 {
