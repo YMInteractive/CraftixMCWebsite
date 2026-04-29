@@ -9,21 +9,6 @@ header {
     padding: 15px 0;
 }
 
-/* Fixes logo size and alignment */
-.top-logo {
-    height: 40px; 
-    width: auto;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-/* Keeps logo and list on the same line */
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 header ul {
     list-style: none;
     margin: 0;
