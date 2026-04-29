@@ -1,24 +1,33 @@
-body {
-    font-family: Arial, Verdana, sans-serif;
-    text-align: center;
-    line-height: 1.6;
-}
 header {
     background-color: #250000;
-    padding: 15px 0;
+    padding: 10px 20px; /* Adjusted padding */
+}
+
+/* This aligns the logo and the UL side-by-side */
+header nav {
+    display: flex;
+    align-items: center;    /* Keeps logo and text centered vertically */
+    justify-content: center; /* Centers the whole nav group in the middle of the page */
+    gap: 20px;              /* Space between the logo and the first link */
+}
+
+.top-logo {
+    height: 40px;           /* Adjust this value to make the logo smaller or larger */
+    width: auto;
 }
 
 header ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;          /* Changed from block to flex for easier alignment */
 }
 
 header ul li {
-    display: inline;
-    margin: 0 20px;
+    margin: 0 15px;         /* Space between menu items */
 }
 
+/* Your existing link styles stay the same */
 header ul li a {
     color: #fff;
     text-decoration: none;
@@ -28,10 +37,4 @@ header ul li a {
 
 header ul li a:hover {
     color: #1abc9c;
-}
-h2 {
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: #ffffff;
 }
