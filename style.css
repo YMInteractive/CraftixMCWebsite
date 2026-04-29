@@ -2,7 +2,7 @@ body {
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
     line-height: 1.6;
-    background-color: #693c00;
+    background-color: #af5b01;
 }
 
 header {
@@ -38,5 +38,5 @@ h2 {
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #f9f9f9;
 }
